@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+
+h1.first-heading {
+   text-align: center;
+    /* margin-bottom: 20px; */
+    background: #c36053;
+    margin: 0;
+    color: #fff;
+    padding: 16px 0;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+span.check {
+    background-position: left !important;
+    background-size: contain !important;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: #eee;
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 0px 1px #c36053;
+    
+}
+.container.main-box {
+    max-width: 360px;
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 0px 20px #c36053;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 42px;
+}
+button#reset {
+    box-shadow: none;
+    border: none;
+    background: #c36053;
+    color: #fff;
+    /* display: block; */
+    width: 224px;
+    padding: 10px;
+    margin: 5px 0 24px;
+    font-size: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 2px #eee;
+}
+button#reset:focus {
+outline: none;
+}
+
+.player-x span#x {
+    width: 50px;
+    display: inline-block;
+    background: #eee;
+    height: 50px;
+    padding-top: 14px;
+    font-size: 15px;
+    margin: 3px 5px;
+    box-shadow: 0px 0px 0px 1px #c36053;
+}
+.player-y span#o {
+    width: 50px;
+    display: inline-block;
+    background: #eee;
+    height: 50px;
+    padding-top: 14px;
+    font-size: 15px;
+    margin: 3px 5px;
+    box-shadow: 0px 0px 0px 1px #c36053;
+}
+.player-y span#t {
+    width: 50px;
+    display: inline-block;
+    background: #eee;
+    height: 50px;
+    padding-top: 14px;
+    font-size: 15px;
+    margin: 3px 5px;
+    box-shadow: 0px 0px 0px 1px #c36053;
+}
+div#cell {
+    margin-bottom: 10px;
+}
+.player-y p {
+    font-size: 15px;
+   
+}
+.player-x p {
+    font-size: 15px; 
+}
+div#cell .row {
+    max-width: 270px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+.row.mx-width {
+    max-width: 270px;
+    margin: 0 auto;
+}
