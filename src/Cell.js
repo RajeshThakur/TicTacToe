@@ -14,7 +14,7 @@ import circle from './circle.png';
 const SingleCell = ({ id, status ,onClick }) => {
    
     return (
-        <Col xs={6} md={4} className="list">
+        <Col xs="4" className="list">
             <span id={"cell-"+ id} className="check" data-status={status} onClick={onClick}></span>
         </Col>
     );

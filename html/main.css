@@ -79,6 +79,7 @@ outline: none;
 }
 div#cell {
     margin-bottom: 10px;
+    /* padding-left: 55px; */
 }
 .player-y p {
     font-size: 15px;

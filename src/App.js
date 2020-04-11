@@ -35,17 +35,17 @@ class App extends Component {
            <Cell></Cell>     
          
           <Row className="mx-width">
-            <Col sm="4" className="player-x">
+            <Col xs="4" className="player-x">
               <p>Player X </p>
               <span id="x">0</span>
             </Col>
 
-            <Col sm="4" className="player-y">
+            <Col xs="4" className="player-y">
               <p> Player O </p>
               <span id="o">0</span>
             </Col>
 
-            <Col sm="4" className="player-y">
+            <Col xs="4" className="player-y">
               <p> Tie </p>
               <span id="t">0</span>
             </Col>
